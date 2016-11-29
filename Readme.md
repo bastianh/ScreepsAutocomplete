@@ -32,16 +32,16 @@ created and empty file, and then select `Update JavaScript References`. The file
 be available.
 
 #### Sublime Text
-There are two ways to enable Autocomplete in Sublime Text, both of them require installing a plugin through 
+There are two ways to enable Autocomplete in Sublime Text, both of them require installing a plugin through
 [`Package Control`](https://packagecontrol.io/installation), and copying `ScreepsAutocomplete` in to your project.
 
- * `TernJS` - Install `TernJS` through `Package Control`, restart Sublime Text and try `var room = new Room(); room.lookAt(x, y)` 
+ * `TernJS` - Install `TernJS` through `Package Control`, restart Sublime Text and try `var room = new Room(); room.lookAt(x, y)`
  to see if Autocomplete is working. If not, try the next options
- 
+
  * `SublimeCodeIntel` - Install `SublimeCodeIntel` through `Package Control`. Go to `Preferences > Package Settings > SublimeCodeIntel > Settings -- User`
  and copy the contents of `ScreepsAutocomplete/config/SublimeCodeIntel.json` in to the file that opens. Save and restart Sublime
  Text. After waiting for CodeIntel to process JavaScript, Autocomplete should be working
- 
+
 #### Atom
 Integration with Atom is done through use of the [`atom-ternjs`](https://github.com/tststs/atom-ternjs) package. Here's the steps
 
@@ -58,3 +58,10 @@ Integration with Atom is done through use of the [`atom-ternjs`](https://github.
 }
 ```
  * Restart and Enjoy
+
+#### Dash
+Create a documentation bundle for [`Dash`](https://kapeli.com/dash) or [`Zeal`](https://zealdocs.org/) or similar tools.
+
+* Install jsdoc ( `npm install jsdoc -g` )
+* Install the dash template in the project ( `npm install` )
+* Run jsdoc ( `jsdoc -c conf.json .` )

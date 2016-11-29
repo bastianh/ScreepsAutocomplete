@@ -2,9 +2,10 @@
   "name": "ScreepsAutocomplete",
   "version": "1.0.0",
   "description": "IDE Autocomplete for Screeps",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "jsdoc-dash-template": "^2.0.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

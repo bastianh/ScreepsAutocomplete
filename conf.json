@@ -1,0 +1,7 @@
+{
+  "exclude": [ "node_modules" ],
+  "opts": {
+    "template": "node_modules/jsdoc-dash-template",
+    "destination": "screeps"
+  }
+}
