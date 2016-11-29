@@ -488,11 +488,11 @@ Creep.prototype =
      * @type {function}
      *
      * @param {string} message The message to be displayed. Maximum length is 10 characters.
-     * @param {boolean} [public] Set to true to allow other players to see this message. Default is false.
+     * @param {boolean} [everybody] Set to true to allow other players to see this message. Default is false.
      *
      * @return {number|OK|ERR_NOT_OWNER|ERR_BUSY}
      */
-    say: function(message, public) { },
+    say: function(message, everybody) { },
 
     /**
      * Kill the creep immediately.
